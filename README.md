@@ -114,11 +114,11 @@ int aValue = otherValue * someValue++ + 1;
 
 Only use them when they refer to something private to the class (only the class will use it) and they are small in the number of lines. Also when there is no other choice than they are non-static and when it's an interface related to a callback (like `OnClickListener` inside of `View`).
 
-## Android
-
 ### Nullable and NonNull
 
 Try to use wherever you can the `@Nullable` and `@NonNull` annotations from the [Support Annotations](http://tools.android.com/tech-docs/support-annotations). Besides doing this messes up the code, it helps to avoid `NullPointerException` with the help of Android Studio's lint.
+
+## Android
 
 ### Fragments and Activities classes naming
 
