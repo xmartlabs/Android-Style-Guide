@@ -160,6 +160,8 @@ Split the strings with dots based on words that give context. For example `user.
 
 Short strings, such as "Do", "Yes", "Do it", "Got it", "Settings", "Go back" and "Support and Feedback" must be named with their value: `do`, `yes`, `do_it` and so on.
 
+If you had the bad luck and the name of the string is a Java reserved word, prefix it with an underscore.
+
 #### Arrays
 
 String arrays should always use string resources and not string literals in its items. This makes translations easy, as arrays are not translated, but the strings do. This avoids problems of having arrays with different size or order in different languages.
