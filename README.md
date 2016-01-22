@@ -128,6 +128,10 @@ Only use them when they refer to something private to the class (only the class 
 
 Try to use wherever you can the `@Nullable` and `@NonNull` annotations from the [Support Annotations](http://tools.android.com/tech-docs/support-annotations). Besides doing this messes up the code, it helps to avoid `NullPointerException` with the help of Android Studio's lint.
 
+### Usage of TODO and FIXME
+
+Where possible, use `TODO` and `FIXME` comments. Write a date when using them. When using IntelliJ IDEA and Android Studio, you just press "todo" or "fixme" and it lets you autocomplete with a message. Use `TODO` when you are leaving something to be done that you are not going to do now and `FIXME` for something similar but related to a bug.
+
 ## Android
 
 ### Alphabetic order where possible
