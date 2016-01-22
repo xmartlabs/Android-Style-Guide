@@ -53,7 +53,7 @@ If you need to name a `List` of activities for example, just name it `activities
 
 #### Local variable names
 
-One-character names are only permitted if they are `i`, `j` or `k` indexes in loops. They must be used in this respective order when nesting them. Example:
+One-character names are only permitted if they are `i`, `j` or `k` indexes in loops. They must be used in this respective order when nesting them. Avoid using these loops indexes outside of them too. Example:
 
 ```java
 for (int i = 0; i < n1; i++) {
