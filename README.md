@@ -152,7 +152,7 @@ The naming should be prefixed with the view name followed by a dot. Logical orga
 
 #### Colors
 
-The color palette shouldn't have many elements. So it's okay for color names to be `red`, `orange` and so on (intituively inferred). If having repeated colors, use versions like `redLight`, `redLighter`, `redDark` and `redDarker`. There shouldn't be much more (it might reflect a design problem). For alpha versions of other colors, prefer the convention `red20` (being 20 the opacity in decimal). For transparent tinted versions, use something like `transparentBlackRed`.
+The color palette shouldn't have many elements. So it's okay for color names to be `red`, `orange` and so on (intituively inferred). If having repeated colors, use versions like `redLight`, `redLighter`, `redDark` and `redDarker`. There shouldn't be much more (it might reflect a design problem). For alpha versions of other colors, prefer the convention `red20` (being 20 the percentage of opacity, in decimal). For transparent tinted versions, use something like `transparentBlackRed`.
 
 #### Strings
 
