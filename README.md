@@ -120,6 +120,10 @@ Try to use wherever you can the `@Nullable` and `@NonNull` annotations from the 
 
 ## Android
 
+### Alphabetic order where possible
+
+Always you have something that order is the same from the machine perspective, prefer to sort it alphabetically. An example of this the methods order in a builder construction, or the enum values order, if the enum value ordinal doesn't care and if the order doesn't go along with some logical order.
+
 ### Fragments and Activities classes naming
 
 These classes must be named after the use case they satisfy, suffixed by `Fragment` or `Activity`. Examples are: `CustomerListFragment` and `RepoDetailActivity`. Fragments that are used only as pages in `ViewPager`s, as if they were "weak entities" (they shouldn't exist outside it) must be called with the suffix `PageFragment`, such as in `TutorialStep1PageFragment`.
