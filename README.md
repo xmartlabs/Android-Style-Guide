@@ -134,7 +134,7 @@ We follow the [Resources section of the Futurice's Android best practices](https
 
 #### Layouts
 
-Regarding the naming, we add that list item views follow the convention of prefixing with `item`, as in `item_customer.xml`. If naming a list header (header item or header of the whole list), use the prefix `header`.
+Regarding the naming we use underscores instead of dots. Also, we add that list item views follow the convention of prefixing with `item`, as in `item_customer.xml`. If naming a list header (header item or header of the whole list), use the prefix `header`.
 
 Attributes with a namespace come first. Between those, first `id` (if present), then `layout_width` and then `layout_height`. Then the rest alphabetically. After this, the ones without namespace, such as `style`, alphabetically.
 
