@@ -8,6 +8,10 @@ The idea is to follow [Google Java Style](http://google.github.io/styleguide/jav
 
 ### Changes
 
+#### Column limit
+
+We use 120 as the column limit. Not 80, nor 100.
+
 #### Vertical whitespace
 
 There must be no vertical whitespace before the first member and after the last one of a class.
