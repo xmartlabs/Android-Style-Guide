@@ -95,7 +95,7 @@ Following Martin Fowler's [Remove Double Negative](http://www.refactoring.com/ca
 
 #### Interfaces naming
 
-Interfaces names must **not** have an `I` prefixed, like in `IComparable` (just `Comparable` is preferred). In the particular case of having an interface and an abstract class that implements it giving a default behavior, prefix the class with the work `Abstract`. Examples of this can be found in the Java API: `Queue` and `AbstractQueue`, `Set` and `AbstractSet`, among others.
+Interfaces names must **not** have an `I` prefixed, like in `IComparable` (just `Comparable` is preferred). In the particular case of having an interface and an abstract class that implements it giving a default behavior, prefix the class with the word `Abstract`. Examples of this can be found in the Java API: `Queue` and `AbstractQueue`, `Set` and `AbstractSet`, among others.
 
 #### Increment and decrement operators
 
