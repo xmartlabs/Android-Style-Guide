@@ -81,15 +81,21 @@ Javadoc must be taken into account only in projects that are an API, open source
 
 #### Conditional operator
 
-The conditional (ternary) operator may be used if the conditions and its corresponding values are considered to be simple enough. The readability of the code must not be disturbed. Also, it must not be used nested. Example:
+The conditional (ternary) operator may be used if the conditions and its corresponding values are considered to be simple enough. The readability of the code must not be disturbed. Also, it must not be used nested. If it doesn't fit in one line, it could be up to 3 lines, being one line for the condition, one for the first value and one for the second one. But if it doesn't fit in 3 lines in this format, it shouldn't be used. Example:
 
 ```java
 // This is okay:
-boolean minValue = a < b ? a : b;
+boolean minValue = value1 < value2 ? value1 : value2;
+
+// This is okay:
+int someValue = value1 < value2 && value1 < value3 && value1 < value4 && value1 < value5 && value1 < value6
+    ? value1 + value2 + value3 + value4
+    : value2 + value3 + value4 + value5;
 
 // This isn't okay:
 String userHasProperty = user != null && Objects.equals(user.getProperty(), "a sample value")
-    ? String.valueOf("%s %s %s", "Some", "complicated", "string")
+    ? String.valueOf("%s %s %s", "Some", "very very very very very very very very very complicated",
+    "and very very very very long string")
     : (user != null && user.satisfiesCondition() ? "this string" : "this other string");
 ```
 
