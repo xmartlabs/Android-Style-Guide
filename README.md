@@ -2,6 +2,8 @@
 
 This is the Xmartlabs' Android and Java Styles Guide. These are conventions in general followed by the team.
 
+To set it up, download the [Android Studio style file](intellij-java-xl-style.xml) and copy it to `config/codestyles` in your Android Studio settings folder. Then in Android Studio, in `Settings`/`Code` select it. Note that this configuration enforce most of the points found in this guide, but not all.
+
 ## Java
 
 The idea is to follow [Google Java Style](http://google.github.io/styleguide/javaguide.html), but with some changes and adding ideas.
