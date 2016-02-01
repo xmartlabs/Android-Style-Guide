@@ -4,6 +4,8 @@ This is the Xmartlabs' Android and Java Styles Guide. These are conventions in g
 
 To set it up, download the [Android Studio style file](intellij-java-xl-style.xml) and copy it to `config/codestyles` in your Android Studio settings folder. Then in Android Studio, in `Settings`/`Code` select it. Note that this configuration enforce most of the points found in this guide, but not all.
 
+You can reformat the code automatically by pressing `Ctrl + Alt + L` (default keyboard shortcut for Reformat Code). Is also recommended to commit with git via Android Studio and that Reformat Code is enabled when doing this.
+
 ## Java
 
 The idea is to follow [Google Java Style](http://google.github.io/styleguide/javaguide.html), but with some changes and adding ideas.
