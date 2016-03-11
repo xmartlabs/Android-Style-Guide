@@ -2,7 +2,12 @@
 
 This is the Xmartlabs' Android and Java Styles Guide. These are conventions in general followed by the team.
 
-To set it up, download the [Android Studio style file](intellij-java-xl-style.xml) and copy it to `config/codestyles` in your Android Studio settings folder. Then in Android Studio, in `Settings`/`Code` select it. Note that this configuration enforce most of the points found in this guide, but not all.
+To set it up, download the [Android Studio style file](intellij-java-xl-style.xml) and copy it to `config/codestyles` in your Android Studio settings folder. 
+For Mac OS you should copy and paste the same file to `Users/me/Library/Preferences/AndroidStudio1.5/codestyles`. Check that the folder is the correct Android Studio version, and if necessary, create the codestyles folder.
+
+Then in Android Studio, in `Settings`/`Code` select it. Note that this configuration enforce most of the points found in this guide, but not all.
+
+
 
 You can reformat the code automatically by pressing `Ctrl + Alt + L` (default keyboard shortcut for Reformat Code). Is also recommended to commit with git via Android Studio and that Reformat Code is enabled when doing this.
 
