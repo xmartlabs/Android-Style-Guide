@@ -39,6 +39,12 @@ public class ClassExample {
 
 Multiple vertical whitespaces must never be used.
 
+#### Empty blocks
+
+Empty blocks are preferently closed immediately after it is opened, with no characters or line break in between, unless it is part of a multi-block statement (one that directly contains multiple blocks: if/else or try/catch/finally).
+
+[Google Empty block preferences](http://google.github.io/styleguide/javaguide.html#s4.1.3-braces-empty-blocks)
+
 #### Array initializers
 
 The preferred array initializer "block-like construct" style when it doesn't fit in one line is one value per line:
